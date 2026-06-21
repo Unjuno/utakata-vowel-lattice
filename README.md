@@ -40,10 +40,20 @@ Implementation: scaffold phase.
 ## Quick start
 
 ```bash
+./scripts/bootstrap.sh
+make demo
+make analyze-demo
+```
+
+Manual equivalent:
+
+```bash
 python -m venv .venv
 source .venv/bin/activate
-pip install -e .
-python scripts/generate_events.py --seed 20260621 --steps 16
+pip install -e ".[dev]"
+python scripts/doctor.py
+python scripts/generate_events.py --seed 20260621 --steps 16 --output outputs/render_events.json
+python scripts/analyze_sequence.py --input outputs/render_events.json
 ```
 
 This writes a small `outputs/render_events.json` file containing generated vowel/prosody events. It is not the final audio renderer yet.
@@ -67,6 +77,7 @@ Start here:
 - [`docs/AUDIO_DESIGN.md`](docs/AUDIO_DESIGN.md): instrumental formant rendering plan
 - [`docs/LOCAL_ANALYSIS_PLAN.md`](docs/LOCAL_ANALYSIS_PLAN.md): local-heavy analysis plan
 - [`docs/RESOURCE_COLLECTION.md`](docs/RESOURCE_COLLECTION.md): local resource checklist
+- [`docs/SETUP.md`](docs/SETUP.md): installation and local automation
 
 ## Data policy
 
