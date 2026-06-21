@@ -57,6 +57,7 @@ Start here:
 - [`docs/IMPLEMENTATION_CONTRACTS.md`](docs/IMPLEMENTATION_CONTRACTS.md): stable CSV, JSON, CLI, and object contracts
 - [`docs/WORK_PACKAGES.md`](docs/WORK_PACKAGES.md): small implementation tasks with acceptance criteria
 - [`docs/AGENT_PROMPTS.md`](docs/AGENT_PROMPTS.md): copyable prompts for autonomous coding agents
+- [`docs/RESOURCE_COLLECTION.md`](docs/RESOURCE_COLLECTION.md): what to collect locally and how to hand resources to agents
 
 ## Documents
 
@@ -65,6 +66,7 @@ Start here:
 - [`docs/MODEL_DESIGN.md`](docs/MODEL_DESIGN.md): constrained overlap Markov model
 - [`docs/AUDIO_DESIGN.md`](docs/AUDIO_DESIGN.md): instrumental formant rendering plan
 - [`docs/LOCAL_ANALYSIS_PLAN.md`](docs/LOCAL_ANALYSIS_PLAN.md): local-heavy analysis plan
+- [`docs/RESOURCE_COLLECTION.md`](docs/RESOURCE_COLLECTION.md): local resource checklist
 
 ## Data policy
 
