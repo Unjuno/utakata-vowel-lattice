@@ -12,6 +12,11 @@ license = {text = "MIT"}
 authors = [{name = "Unjuno"}]
 dependencies = []
 
+[project.optional-dependencies]
+dev = [
+    "pytest>=8",
+]
+
 [tool.setuptools.packages.find]
 where = ["src"]
 
