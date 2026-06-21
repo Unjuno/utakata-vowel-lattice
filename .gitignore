@@ -1,9 +1,12 @@
 .venv/
+.env
 __pycache__/
 .pytest_cache/
 *.pyc
 .DS_Store
 outputs/
+assets/carriers/*
+!assets/carriers/.gitkeep
 data/raw/*
 !data/raw/.gitkeep
 data/interim/*
